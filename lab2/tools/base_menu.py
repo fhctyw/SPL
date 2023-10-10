@@ -1,7 +1,6 @@
 from .base_program import BaseProgram
 from abc import ABC, abstractmethod
 from typing import Callable
-from collections import deque
 
 class BaseMenu(ABC):
     class Option:

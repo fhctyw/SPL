@@ -13,6 +13,7 @@ class Menu(BaseMenu):
 
     def choose_option(self):
         self.choice = int(input(f'Enter choice(0-{len(self._get_menu())}): '))
+        print()
 
     def do_option(self):
         if self.choice == 0:

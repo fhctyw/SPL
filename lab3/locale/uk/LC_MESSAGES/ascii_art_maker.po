@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Language: uk\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Exit"
+msgstr "Вихід"
+
+#: lab3\src\ascii_art_maker.py:47
+msgid "Create ASCII art"
+msgstr "Створити ASCII арт"
+
+#: lab3\src\ascii_art_maker.py:48
+msgid "Show all fonts"
+msgstr "Показати всі шрифти"
+
+#: lab3\src\ascii_art_maker.py:49
+msgid "Set font"
+msgstr "Встановити шрифт"
+
+#: lab3\src\ascii_art_maker.py:50
+msgid "Show all colors"
+msgstr "Показати всі кольори"
+
+#: lab3\src\ascii_art_maker.py:51
+msgid "Set color"
+msgstr "Встановити колір"
+
+#: lab3\src\ascii_art_maker.py:52
+msgid "Show all arts"
+msgstr "Показати всі арти"
+
+#: lab3\src\ascii_art_maker.py:161
+msgid "Enter color name"
+msgstr "Введіть назву коліру"
+
+#: lab3\src\ascii_art_maker.py:163
+msgid "Invalid color name, check all available colors in main menu"
+msgstr "Неправильний колір, перевірте доступні кольори в головному меню"
+
+#: lab3\src\ascii_art_maker.py:167
+#, python-brace-format
+msgid "Color \"{new_color}\" will look like"
+msgstr "Колір \"{new_color}\" буде виглядити так"
+
+#: lab3\src\ascii_art_maker.py:172 lab3\src\ascii_art_maker.py:195
+msgid "Do you agree?"
+msgstr "Ви погоджуєте"
+
+#: lab3\src\ascii_art_maker.py:183
+msgid "Enter font name"
+msgstr "Введіть назву шрифту"
+
+#: lab3\src\ascii_art_maker.py:185
+msgid "Invalid font name, check all available fonts in main menu"
+msgstr "Неправильне назва шрифта, перевірте доступні шрифти в головному меню"
+
+#: lab3\src\ascii_art_maker.py:189
+#, python-brace-format
+msgid "Font \"{new_font}\" will look like"
+msgstr "Шрифт \"{new_font}\" буде виглядити так"
+
+#: lab3\src\ascii_art_maker.py:260
+msgid "Enter text"
+msgstr "Введіть текст"
+
+#: lab3\src\ascii_art_maker.py:316
+msgid "Art are sutible?"
+msgstr "Арт підходящий?"
+
+#: lab3\src\ascii_art_maker.py:324
+msgid "Do you want to change color?"
+msgstr "Ви хочете змінити колір?"
+
+#: lab3\src\ascii_art_maker.py:332
+msgid "Choose color"
+msgstr "Виберіть колір"
+
+#: lab3\src\ascii_art_maker.py:336
+msgid "Color are sutible?"
+msgstr "Колір підходящий?"

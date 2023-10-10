@@ -1,7 +1,7 @@
 from tools.base_menu import BaseMenu
 from components.operators import *
 from components.user import User
-from calc import Calculator
+from src.calc import Calculator
 
 def user_auth(m, p: Calculator):
     user_name = input('Enter user name: ')
