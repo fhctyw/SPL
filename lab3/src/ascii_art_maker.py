@@ -1,5 +1,5 @@
-from config import *
-from config import _
+from ..config import *
+from ..config import _
 
 from .base_program import BaseProgram
 from .validators.font import FontValidator

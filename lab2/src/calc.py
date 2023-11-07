@@ -1,7 +1,7 @@
-from tools import *
-from components.operators import *
-from components.user import User
-from menu import Menu
+from ..tools import *
+from ..components.operators import *
+from ..components.user import User
+from .menu import Menu
 
 class Calculator(BaseProgram):
     def __init__(self) -> None:

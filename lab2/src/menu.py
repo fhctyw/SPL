@@ -1,5 +1,5 @@
-from tools.base_program import BaseProgram
-from tools.base_menu import BaseMenu
+from ..tools.base_program import BaseProgram
+from ..tools.base_menu import BaseMenu
 
 class Menu(BaseMenu):
     def __init__(self, program: BaseProgram) -> None:

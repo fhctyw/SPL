@@ -1,4 +1,4 @@
-from src import AsciiArtMaker
+from .src import AsciiArtMaker
 
 def main():
     art_maker = AsciiArtMaker()
