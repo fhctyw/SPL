@@ -1,4 +1,0 @@
-art==6.1
-console-menu==0.8.0
-keyboard==0.13.5
-termcolor==2.3.0
