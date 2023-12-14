@@ -19,6 +19,9 @@ from subsystems.lab4.src.core.app import App
 from subsystems.lab4.src.core.console_inputter import ConsoleInputter
 from subsystems.lab4.src.core.graphic import Graphic
 
+from subsystems.lab5.engine import Engine
+from subsystems.lab5.math import Vector3D
+
 from subsystems.lab6.test_calculator import TestCalculator
 
 from subsystems.lab7.coinbase_api import CoinbaseAPI
@@ -48,7 +51,7 @@ class Runner(Menu):
         result = calc.calculate("PlusOperator", 3, 17)
         
         outputer = ConsoleOutput()
-        outputer.output(result)
+        outputer.output(f"result = {result}")
 
         ConsoleInput().input()
 
@@ -71,6 +74,13 @@ class Runner(Menu):
     @menu_item("ASCII Art 3D")
     def lab5(self) -> None:
         """Lab5 ASCII Art 3D"""
+        size = os.get_terminal_size()
+
+        engine = Engine(size.columns, size.lines)
+
+        engine.camera.position = Vector3D(0, 0, -5)
+
+        engine.run()
 
     @menu_item("Unit tests")
     def lab6(self) -> None:
@@ -104,15 +114,4 @@ def main() -> None:
 
 if '__main__' == __name__:
     main()
-
-    # menu = ConsoleMenu("Runner")
-    # menu.append_item(FunctionItem("Calculator", lab1.main.main))
-    # menu.append_item(FunctionItem("OOP Calculator", lab2.main.main))
-    # menu.append_item(FunctionItem("ASCII Art", lab3.main.main))
-    # menu.append_item(FunctionItem("2D ASCII Art without additional libraries", lab4.main.main))
-    # menu.append_item(FunctionItem("3D ASCII Arts", lab5.main.main))
-    # menu.append_item(FunctionItem("Unit tests", lab6.main.main))
-    # menu.append_item(FunctionItem("API requests", lab7.main.main))
-    # menu.append_item(FunctionItem("Visualize csv files", lab8.main.main))
-
-    # menu.show()
+    
